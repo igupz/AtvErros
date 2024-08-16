@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>Atividade</title>
+    <script src="js/main.js" type="module"></script>
+    <script type="module">
+      import { mensagem, posts } from "/js/main.js";
+      console.log(mensagem);
+
+      const data = await posts();
+      console.log(data);
+    </script>
+  </head>
+  <body>
+    <h1>O Visual Studio Code é um editor de código popular entre os desenvolvedores web. </h1>
+    <p>Existem várias extensões úteis que podem melhorar sua produtividade e ajudar a evitar erros comuns. Algumas extensões recomendadas incluem:</p>
+    <img src="imagens/logo.png" alt="Logo">
+    <button id="fetchButton">Buscar Dados</button>
+    <div id="dataContainer"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
